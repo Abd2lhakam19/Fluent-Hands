@@ -9,6 +9,8 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:gap/gap.dart';
 
+import '../../../profile/ui/main_ui/profile_screen.dart';
+
 class OnBoarding2 extends StatelessWidget {
   const OnBoarding2({super.key});
 
@@ -49,7 +51,13 @@ class OnBoarding2 extends StatelessWidget {
             ),
             const Gap(16),
             ButtonWidget(
-              onPressed: () {},
+              onPressed: () {
+                Navigator.of(context).pushReplacement(
+                    MaterialPageRoute(
+                      builder: (context) => const ProfileScreen()
+                    )
+                );
+              },
               text: AppStrings.continueAsAguest,
               borderColor: AppColors.orangeColor,
               backGroundColor: Colors.transparent,

@@ -7,7 +7,5 @@ void main() {
   WidgetsFlutterBinding.ensureInitialized();
 
   CacheHelper().init();
-  runApp(
-    const FluentHands(),
-  );
+  runApp(const FluentHands());
 }

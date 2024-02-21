@@ -21,12 +21,15 @@ class _OnBoarding1State extends State<OnBoarding1> {
     OnBoardingModel(
         title: AppStrings.translation,
         svgPic: AppAssets.onBoarding1,
-        dec: AppStrings.unlockTheWorled),
+        dec: AppStrings.unlockTheWorled,
+    ),
     OnBoardingModel(
         title: AppStrings.learning,
         svgPic: AppAssets.onBoarding2,
-        dec: AppStrings.speakWithoutWords),
+        dec: AppStrings.speakWithoutWords,
+    ),
   ];
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(

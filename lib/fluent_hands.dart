@@ -14,7 +14,6 @@ class FluentHands extends StatelessWidget {
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
         home: const SplashScreen(),
-        // onGenerateRoute: appRouter.generateRoute,
         theme: ThemeData(
           scaffoldBackgroundColor: AppColors.darkWhite,
           appBarTheme: const AppBarTheme(backgroundColor: Colors.transparent),
