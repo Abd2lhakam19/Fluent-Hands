@@ -38,11 +38,11 @@ class OnBoarding2 extends StatelessWidget {
             ButtonWidget(
               onPressed: () {
                 Navigator.push(
-                    context,
-                    MaterialPageRoute(
-                      builder: (context) => const SignIn(),
-                    ),
-                  );
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => const SignIn(),
+                  ),
+                );
               },
               text: AppStrings.signIn,
               backGroundColor: Colors.transparent,
