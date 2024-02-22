@@ -25,9 +25,11 @@ class AppStrings {
       level1 = "Level 1",
       level1Details = "Alphabets - Numbers\nBasic Words",
       easy = "easy",
+      interMediate = "intermediate",
+      advanced = "Advanced",
       level2 = "Level 2",
       level2Details = "Alphabets - Numbers\nBasic Words",
       level3 = "Level 3",
-      level3Details = "Alphabets - Numbers\nBasic Words";
-
+      level3Details = "Alphabets - Numbers\nBasic Words",
+      changeProfilePicture = "Change Profile Picture";
 }

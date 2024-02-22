@@ -21,13 +21,13 @@ class LearnPage extends StatelessWidget {
           LevelComponent(
             levelName: AppStrings.level2,
             levelDetails: AppStrings.level2Details,
-            defLevel: AppStrings.easy,
+            defLevel: AppStrings.interMediate,
           ),
           const Gap(16),
           LevelComponent(
             levelName: AppStrings.level3,
             levelDetails: AppStrings.level3Details,
-            defLevel: AppStrings.easy,
+            defLevel: AppStrings.advanced,
           ),
         ],
       ),

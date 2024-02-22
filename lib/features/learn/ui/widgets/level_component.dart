@@ -28,36 +28,38 @@ class LevelComponent extends StatelessWidget {
         color: AppColors.orangeColor,
         borderRadius: BorderRadius.circular(20),
       ),
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          Text(
-            levelName,
-            style: TextStyles.medium18BlueBerry.copyWith(
-              color: Colors.white,
-            ),
-          ),
-          const Gap(12),
-          Text(
-            levelDetails,
-            style: TextStyles.regular16BlueBerry.copyWith(
-              color: AppColors.detailsColor,
-            ),
-          ),
-          const Gap(20),
-          Row(
-            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-            children: [
-              Text(
-                defLevel,
-                style: TextStyles.regular13orange.copyWith(
-                  color: Colors.white,
-                ),
+      child: SingleChildScrollView(
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Text(
+              levelName,
+              style: TextStyles.medium18BlueBerry.copyWith(
+                color: Colors.white,
               ),
-              Image.asset(AppAssets.next),
-            ],
-          ),
-        ],
+            ),
+            const Gap(12),
+            Text(
+              levelDetails,
+              style: TextStyles.regular16BlueBerry.copyWith(
+                color: AppColors.detailsColor,
+              ),
+            ),
+            const Gap(20),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: [
+                Text(
+                  defLevel,
+                  style: TextStyles.regular13orange.copyWith(
+                    color: Colors.white,
+                  ),
+                ),
+                Image.asset(AppAssets.next),
+              ],
+            ),
+          ],
+        ),
       ),
     );
   }
